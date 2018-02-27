@@ -18,6 +18,10 @@
 		D276344B2044FA14004194E4 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276344A2044FA14004194E4 /* InstagramTests.swift */; };
 		D27634562044FA15004194E4 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27634552044FA15004194E4 /* InstagramUITests.swift */; };
 		D27634662044FDD3004194E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27634652044FDD3004194E4 /* LoginViewController.swift */; };
+		D276346A20451402004194E4 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276346920451402004194E4 /* HomeFeedViewController.swift */; };
+		D276346C20451422004194E4 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276346B20451422004194E4 /* CreatePostViewController.swift */; };
+		D276346E20451445004194E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276346D20451445004194E4 /* ProfileViewController.swift */; };
+		D276347020451989004194E4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276346F20451989004194E4 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		D27634552044FA15004194E4 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		D27634572044FA15004194E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27634652044FDD3004194E4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D276346920451402004194E4 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		D276346B20451422004194E4 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		D276346D20451445004194E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D276346F20451989004194E4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D51C7552370A42EABD0A93F8 /* Pods-InstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC961820CE37D8BFAC407192 /* Pods_InstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B5E64BB94C3DDF0B75783E /* Pods-InstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +141,10 @@
 				D276343E2044FA14004194E4 /* LaunchScreen.storyboard */,
 				D27634412044FA14004194E4 /* Info.plist */,
 				D27634652044FDD3004194E4 /* LoginViewController.swift */,
+				D276346920451402004194E4 /* HomeFeedViewController.swift */,
+				D276346B20451422004194E4 /* CreatePostViewController.swift */,
+				D276346D20451445004194E4 /* ProfileViewController.swift */,
+				D276346F20451989004194E4 /* Post.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -463,9 +475,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D276346E20451445004194E4 /* ProfileViewController.swift in Sources */,
+				D276346C20451422004194E4 /* CreatePostViewController.swift in Sources */,
 				D27634662044FDD3004194E4 /* LoginViewController.swift in Sources */,
 				D27634382044FA14004194E4 /* ViewController.swift in Sources */,
 				D27634362044FA14004194E4 /* AppDelegate.swift in Sources */,
+				D276347020451989004194E4 /* Post.swift in Sources */,
+				D276346A20451402004194E4 /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
